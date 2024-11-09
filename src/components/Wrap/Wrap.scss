@@ -1,0 +1,33 @@
+.wrap__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+
+    h2 {
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+
+
+.wrap__box {
+    background: purple;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    .link {
+        background: blue;
+        color: red;
+        border: 1px solid black;
+        padding: 10px;
+
+        &.active {
+            background: red;
+            color: blue;
+        }
+    }
+}
